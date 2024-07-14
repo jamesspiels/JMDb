@@ -37,7 +37,7 @@ function showMovieDetails(id){
     localStorage.setItem("id", id)
     console.log(`this ran. id: ${id}`);
     localStorage.setItem("id", id)
-    window.location.href = `${window.location.origin}/details.html`
+    window.location.href = `${window.location.origin}/JMDb/details.html`
     
 }
 
