@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="details.js"></script>
+  </head>
+  <body>
+    <section id="details">
+      <div class="overlay"></div>
+
+      <nav>
+        <a href="./index.html#" class="logo__link">
+          <img
+            src="./assets/FullLogo_Transparent__pink--no-border.png"
+            id="personal-logo"
+            class="logo--img"
+          />
+          JMDb
+        </a>
+
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="./index.html"
+              class="movies__home header--nav__link nav__link--anchor nav__link--home link__hover-effect link__hover-effect--black"
+              >Home</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="./movies.html"
+              class="movies__find--movie header--nav__link nav__link--anchor link__hover-effect link__hover-effect--purple"
+              target="_self"
+              >Back to Movies</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--movie-btn nav__link--btn btn movies__contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__content">
+        <h1 class="title__browse">Movie Details</h1>
+      </div>
+      <div class="detail__block">
+        <div class="ratings__resizer">
+          <div class="detail__container"></div>
+          <div class="ratings__wrapper">
+            <h3 class="ratings__title">
+              <span class="text--color">Ratings:</span>
+            </h3>
+            <p class="ratings__para"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
